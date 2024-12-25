@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "GoogleMapAppNew",
+    "name": "Atlas",
     "slug": "GoogleMapAppNew",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,28 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBfI5VYNSF5uiMS6zfN0UQDHbrBIdB3D2k"
+        }
+      },
+      "package": "com.kma1371.GoogleMapAppNew",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_NETWORK_STATE",
+        "INTERNET"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3589f7f-3b64-43ac-8f85-419ce726f376"
+      }
     }
+    
   }
 }
